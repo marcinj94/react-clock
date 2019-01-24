@@ -1,3 +1,7 @@
+## Demo
+
+Visit: https://marcinj94.github.io/react-clock/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
