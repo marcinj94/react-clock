@@ -1,8 +1,11 @@
 import React from 'react';
+import './Description.css'
 
 const Description = () => {
     return (
-        <p>Digital clock with React.JS</p>
+        <span className="description">
+            Digital clock with React.JS
+        </span>
     );
 }
 

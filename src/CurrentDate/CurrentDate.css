@@ -1,0 +1,28 @@
+.date {
+    font-size: 15px;
+    letter-spacing: 5px;
+    text-shadow: 0 0 20px deepskyblue;
+}
+
+.date:after {
+    content: '';
+    position: absolute;
+    background-color: deepskyblue;
+    z-index: -1;
+}
+
+.date:after {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    height: 20%;
+    opacity: 0.4;
+    filter: blur(50px);
+}
+
+@media (min-width: 1024px) {
+    .date {
+        font-size: 20px;
+    }
+}

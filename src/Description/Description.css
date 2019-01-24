@@ -1,0 +1,29 @@
+.description {
+    padding-top: 30px;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-shadow: 0 0 20px deepskyblue;
+}
+
+.description:after {
+    content: '';
+    position: absolute;
+    background-color: deepskyblue;
+    z-index: -1;
+}
+
+.description:after {
+    bottom: -5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30%;
+    height: 20%;
+    opacity: 0.4;
+    filter: blur(50px);
+}
+
+@media (min-width: 1024px) {
+    .description {
+        font-size: 20px;
+    }
+}

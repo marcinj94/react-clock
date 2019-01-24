@@ -1,4 +1,5 @@
 import React from 'react';
+import './CurrentDate.css'
 
 const Date = (props) => {
 
@@ -8,7 +9,7 @@ const Date = (props) => {
 
 
     return (
-        <span className="currentDate">
+        <span className="date">
             {props.dayName}, {day}-{month}-{year}
         </span>
     );
